@@ -1,6 +1,6 @@
 #!/bin/bash
 git pull
-echo "1" | cat > nueve.txt
+echo "2" | cat > nueve.txt
 git add .
-git commit -m "Playa"
+git commit -m "Sol"
 git push origin main
