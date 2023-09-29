@@ -1,5 +1,8 @@
 import os
+
+#iteration
 for x in range(10):
+	#Seperate cases so it lets us push because is different each time.
 	if(x%2)==0:
 		os.system("git pull")
 		os.system("echo '1' | cat > nueve.txt")
