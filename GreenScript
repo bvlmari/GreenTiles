@@ -3,3 +3,4 @@ git pull
 echo "1" | cat > nueve.txt
 git add .
 git commit -m "Playa"
+git push origin main
