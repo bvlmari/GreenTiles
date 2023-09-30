@@ -1,7 +1,10 @@
 import subprocess
+import sys
+
+a = int(sys.argv[1])
 
 #iteration
-for x in range(10):
+for x in range(a):
 	#Seperate cases so it lets us push because is different each time.
 	if(x%2)==0:
 		subprocess.run("git pull", shell=True)
