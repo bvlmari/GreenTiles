@@ -3,7 +3,7 @@ import sys
 
 def main():
 	a = int(sys.argv[1])
-
+	a += 1
 	#iteration
 	for x in range(a):
 		y = x
